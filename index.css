@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: hsl(210, 34%, 15%);;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(hsl(214, 100%, 50%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    color: #ffffff;
+}
+span{
+    color: cyan;
+    font-size: 100px;
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+textarea::placeholder{
+    font-size:smaller;
+    color: #ddd;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    padding: 10px 20px;
+    background: #403d84;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+
+}
+
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(img/dropdown.png) ;
+    background-repeat: no-repeat;
+    background-position-x:calc(100% - 20px);
+    background-position-y: 20px;
+    background-size: 15px;
+
+}
+
+
+/* Footer  */
+
+  .footer {
+    background-color: hsl(208, 46%, 7%);
+    color: #ffffff;
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo h2 {
+    color: #ffffff;
+  }
+  
+  .footer-links ul,
+  .footer-socials ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li,
+  .footer-socials ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-links ul li a,
+  .footer-socials ul li a {
+    color: #bfbfbf;
+   
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover,
+  .footer-socials ul li a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #4f5963;
+    padding-top: 10px;
+    color: #bfbfbf;
+    font-size: 14px;
+  }
+  
